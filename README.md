@@ -16,7 +16,9 @@ A machine learning service that estimates a user's potential net worth based on 
 # Live URL of the Endpoint
 * Repo (Github): https://github.com/AzamRabiee/wealthy_estimator
 * Repo (HF): https://huggingface.co/spaces/Azam-Rabiee/wealthy-estimator-api/tree/main
-* Swagger: https://azam-rabiee-wealthy-estimator-api.hf.space/docs
+* Swagger: https://azam-rabiee-wealthy-estimator-api.hf.space/docs 
+
+Check `Swagger - Sample Run.pdf`
 
 ## 🏗️ Architecture
 
