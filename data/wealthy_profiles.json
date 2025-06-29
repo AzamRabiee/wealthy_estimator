@@ -1,0 +1,74 @@
+{
+  "profiles": [
+    {
+      "name": "Elon Musk",
+      "net_worth": 250000000000,
+      "occupation": "Entrepreneur",
+      "embedding": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+      "image_url": "https://example.com/elon_musk.jpg"
+    },
+    {
+      "name": "Jeff Bezos",
+      "net_worth": 180000000000,
+      "occupation": "Entrepreneur",
+      "embedding": [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 0.1],
+      "image_url": "https://example.com/jeff_bezos.jpg"
+    },
+    {
+      "name": "Bill Gates",
+      "net_worth": 120000000000,
+      "occupation": "Entrepreneur",
+      "embedding": [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 0.1, 0.2],
+      "image_url": "https://example.com/bill_gates.jpg"
+    },
+    {
+      "name": "Warren Buffett",
+      "net_worth": 100000000000,
+      "occupation": "Investor",
+      "embedding": [0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 0.1, 0.2, 0.3],
+      "image_url": "https://example.com/warren_buffett.jpg"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "net_worth": 90000000000,
+      "occupation": "Entrepreneur",
+      "embedding": [0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 0.1, 0.2, 0.3, 0.4],
+      "image_url": "https://example.com/mark_zuckerberg.jpg"
+    },
+    {
+      "name": "Larry Page",
+      "net_worth": 85000000000,
+      "occupation": "Entrepreneur",
+      "embedding": [0.6, 0.7, 0.8, 0.9, 1.0, 0.1, 0.2, 0.3, 0.4, 0.5],
+      "image_url": "https://example.com/larry_page.jpg"
+    },
+    {
+      "name": "Sergey Brin",
+      "net_worth": 80000000000,
+      "occupation": "Entrepreneur",
+      "embedding": [0.7, 0.8, 0.9, 1.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6],
+      "image_url": "https://example.com/sergey_brin.jpg"
+    },
+    {
+      "name": "Larry Ellison",
+      "net_worth": 75000000000,
+      "occupation": "Entrepreneur",
+      "embedding": [0.8, 0.9, 1.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7],
+      "image_url": "https://example.com/larry_ellison.jpg"
+    },
+    {
+      "name": "Steve Ballmer",
+      "net_worth": 70000000000,
+      "occupation": "Entrepreneur",
+      "embedding": [0.9, 1.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8],
+      "image_url": "https://example.com/steve_ballmer.jpg"
+    },
+    {
+      "name": "Michael Bloomberg",
+      "net_worth": 65000000000,
+      "occupation": "Entrepreneur",
+      "embedding": [1.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+      "image_url": "https://example.com/michael_bloomberg.jpg"
+    }
+  ]
+} 
