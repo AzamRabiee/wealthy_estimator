@@ -66,7 +66,7 @@ async def predict_wealth(file: UploadFile = File(...)):
         try:
             image_data = await file.read()
             image = Image.open(io.BytesIO(image_data))
-            
+            print("image size: ", image.size)
             # Validate image dimensions
             if image.size[0] < 50 or image.size[1] < 50:
                 raise HTTPException(

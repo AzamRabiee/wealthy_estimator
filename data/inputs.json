@@ -1,0 +1,64 @@
+{
+    "profiles": [
+      {
+        "name": "Elon Musk",
+        "net_worth": 250000000000,
+        "occupation": "Entrepreneur",
+        "image": "images/Elon.jpeg"
+      },
+      {
+        "name": "Jeff Bezos",
+        "net_worth": 180000000000,
+        "occupation": "Entrepreneur",
+        "image": "images/Jeff.jpeg"
+      },
+      {
+        "name": "Bill Gates",
+        "net_worth": 120000000000,
+        "occupation": "Entrepreneur",
+        "image": "images/Bill.jpeg"
+      },
+      {
+        "name": "Warren Buffett",
+        "net_worth": 100000000000,
+        "occupation": "Investor",
+        "image": "images/Warren.jpg"
+      },
+      {
+        "name": "Mark Zuckerberg",
+        "net_worth": 90000000000,
+        "occupation": "Entrepreneur",
+        "image": "images/Mark.jpeg"
+      },
+      {
+        "name": "Larry Page",
+        "net_worth": 85000000000,
+        "occupation": "Entrepreneur",
+        "image": "images/Larry.jpeg"
+      },
+      {
+        "name": "Sergey Brin",
+        "net_worth": 80000000000,
+        "occupation": "Entrepreneur",
+        "image": "images/Sergey.jpg"
+      },
+      {
+        "name": "Larry Ellison",
+        "net_worth": 75000000000,
+        "occupation": "Entrepreneur",
+        "image": "images/LarryE.jpg"
+      },
+      {
+        "name": "Steve Ballmer",
+        "net_worth": 70000000000,
+        "occupation": "Entrepreneur",
+        "image": "images/Steve.jpeg"
+      },
+      {
+        "name": "Michael Bloomberg",
+        "net_worth": 65000000000,
+        "occupation": "Entrepreneur",
+        "image": "images/Michael.jpeg"
+      }
+    ]
+  } 

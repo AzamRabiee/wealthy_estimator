@@ -54,13 +54,30 @@ class WealthEstimator:
             # Get model output
             outputs = self.model(image_tensor)
             
-            # Use the last hidden state as embedding
-            embedding = outputs.last_hidden_state.mean(dim=1).cpu().numpy()
+            # For ResNet models, the output is the final feature tensor
+            # We need to project it to 49 dimensions to match the profiles
+            if hasattr(outputs, 'last_hidden_state'):
+                # If it has last_hidden_state (unlikely for ResNet), use it
+                features = outputs.last_hidden_state.mean(dim=1).cpu().numpy()
+            else:
+                # For ResNet, use the direct output
+                features = outputs.cpu().numpy()
+            
+            # Flatten the features
+            features = features.flatten()
+            
+            # Project to 49 dimensions by taking first 49 or sampling
+            if len(features) >= 49:
+                embedding = features[:49]
+            else:
+                # If we have fewer than 49 dimensions, pad with zeros
+                embedding = np.zeros(49)
+                embedding[:len(features)] = features
             
             # Normalize embedding
             embedding = embedding / np.linalg.norm(embedding)
             
-            return embedding.flatten()
+            return embedding
     
     def compute_similarity(self, user_embedding: np.ndarray) -> list:
         """Compute similarity between user embedding and wealthy profiles"""
