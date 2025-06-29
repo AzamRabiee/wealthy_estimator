@@ -1,6 +1,22 @@
+---
+title: Wealth Potential Estimator
+emoji: 💰
+colorFrom: blue
+colorTo: purple
+sdk: docker
+sdk_version: 1.0.0
+app_file: app/main.py
+pinned: false
+---
+
 # Wealth Potential Estimator API
 
 A machine learning service that estimates a user's potential net worth based on a submitted selfie image. The API analyzes facial features and compares them to a database of wealthy individuals to provide wealth potential estimates.
+
+# Live URL of the Endpoint
+* Repo (Github): https://github.com/AzamRabiee/wealthy_estimator
+* Repo (HF): https://huggingface.co/spaces/Azam-Rabiee/wealthy-estimator-api/tree/main
+* Swagger: https://azam-rabiee-wealthy-estimator-api.hf.space/docs
 
 ## 🏗️ Architecture
 
